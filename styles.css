@@ -8,12 +8,9 @@ html {
   font-size: 62.5%;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.page-container {
+  margin: 0 auto;
+  max-width: 144rem;
 }
 
 header {
@@ -24,4 +21,12 @@ header {
 
 header ul {
   display: flex;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
