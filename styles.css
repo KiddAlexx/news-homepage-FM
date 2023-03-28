@@ -129,13 +129,23 @@ header {
   grid-row: 4/5;
 }
 
+.story-img {
+  width: 10rem;
+}
+
 .top-stories ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.top-stories li {
   display: flex;
 }
 
 /********************Footer**********************/
 
 .attribution {
+  margin-top: 5rem;
   font-size: 11px;
   text-align: center;
 }
