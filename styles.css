@@ -46,6 +46,29 @@ header {
   color: var(--dark-gray-blue);
 }
 
+.page01 {
+  display: grid;
+  grid-template-columns: (3, 1fr);
+  grid-template-rows: (5, 1fr);
+}
+.main-story {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.new-stories {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.top-stories {
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
+
+.top-stories-list {
+  display: flex;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
