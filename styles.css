@@ -64,6 +64,8 @@ header {
 
 .main-story-content h1 {
   font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
 }
 
 .new-stories {
