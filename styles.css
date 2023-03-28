@@ -100,14 +100,28 @@ header {
 .new-stories {
   grid-column: 2/3;
   grid-row: 1/4;
+  padding: 3rem;
   background-color: var(--vdark-gray-blue);
   color: var(--off-white);
 }
 
 .new-stories h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
   color: var(--soft-orange);
 }
 
+.new-stories h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.new-stories p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: var(--gray-blue);
+}
 /********************Top Stories**********************/
 
 .top-stories {
