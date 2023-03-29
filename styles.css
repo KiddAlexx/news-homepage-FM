@@ -58,6 +58,7 @@ header {
   display: grid;
   grid-template-columns: (3, 1fr);
   grid-template-rows: (5, 1fr);
+  gap: 2rem;
 }
 
 /********************Main Story**********************/
@@ -140,6 +141,19 @@ header {
 
 .top-stories li {
   display: flex;
+}
+.top-story-content {
+  padding-left: 2rem;
+}
+
+.top-story-content h2 {
+  font-size: 3rem;
+}
+.top-story-content h3 {
+  font-size: 2rem;
+}
+.top-story-content p {
+  font-size: 1.5rem;
 }
 
 /********************Footer**********************/
