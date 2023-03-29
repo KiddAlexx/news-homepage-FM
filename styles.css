@@ -86,6 +86,7 @@ header {
   font-size: 1.5rem;
 }
 .main-story-content button {
+  margin-top: 5rem;
   border: none;
   background-color: var(--soft-red);
   width: 18rem;
@@ -131,6 +132,7 @@ header {
 .top-stories {
   grid-column: 1/4;
   grid-row: 4/5;
+  margin-top: 5rem;
 }
 
 .story-img {
