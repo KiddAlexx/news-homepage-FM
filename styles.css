@@ -196,7 +196,16 @@ header {
   padding-top: 1.5rem;
   font-size: 1.7rem;
   font-weight: 800;
+}
+
+.top-story-link:link,
+.top-story-link:visited {
   color: var(--vdark-gray-blue);
+  transition: color 0.2s ease-in-out;
+}
+.top-story-link:hover,
+.top-story-link:active {
+  color: var(--soft-red);
 }
 .top-story-content p {
   padding-top: 1.5rem;
