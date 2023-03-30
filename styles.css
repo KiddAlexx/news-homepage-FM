@@ -26,6 +26,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .page-container {
   margin: 0 auto;
   padding-left: 1rem;
@@ -51,7 +55,6 @@ header {
 
 .header-link:link,
 .header-link:visited {
-  text-decoration: none;
   color: var(--dark-gray-blue);
   font-weight: 300;
   font-size: 1.5rem;
@@ -114,7 +117,6 @@ header {
 
 .button-main:link,
 .button-main:visited {
-  text-decoration: none;
   background-color: var(--soft-red);
   color: var(--off-white);
   transition: background-color 0.2s ease-in-out;
@@ -144,6 +146,16 @@ header {
 .new-stories h3 {
   font-size: 2rem;
   margin-top: 3rem;
+}
+
+.new-story-link:link,
+.new-story-link:visited {
+  color: var(--off-white);
+  transition: color 0.2s ease-in-out;
+}
+.new-story-link:hover,
+.new-story-link:active {
+  color: var(--soft-orange);
 }
 
 .new-stories p {
