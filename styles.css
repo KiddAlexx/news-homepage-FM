@@ -49,11 +49,16 @@ header {
   list-style: none;
 }
 
-.header-menu a {
+.header-menu a:link,
+a:visited {
   text-decoration: none;
   color: var(--dark-gray-blue);
   font-weight: 300;
   font-size: 1.5rem;
+}
+.header-menu a:hover,
+a:active {
+  color: var(--soft-red);
 }
 
 /********************Page Layout**********************/
