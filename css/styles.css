@@ -176,11 +176,11 @@ header {
 .top-stories {
   grid-column: 1/4;
   grid-row: 4/5;
-  margin-top: 5rem;
+  margin-top: 4.5rem;
 }
 
 .story-img {
-  width: 10rem;
+  max-width: 10rem;
 }
 
 .top-stories ul {

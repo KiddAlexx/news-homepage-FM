@@ -1,0 +1,14 @@
+@media (max-width: 53em) /* 848px */ {
+  .page01 {
+    display: block;
+  }
+  .main-story-content {
+    flex-direction: column;
+  }
+  .top-stories ul {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 23.5em) /* 376px */ {
+}
