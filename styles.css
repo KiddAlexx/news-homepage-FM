@@ -49,15 +49,15 @@ header {
   list-style: none;
 }
 
-.header-menu a:link,
-a:visited {
+.header-link:link,
+.header-link:visited {
   text-decoration: none;
   color: var(--dark-gray-blue);
   font-weight: 300;
   font-size: 1.5rem;
 }
-.header-menu a:hover,
-a:active {
+.header-link:hover,
+.header-link:hover:active {
   color: var(--soft-red);
 }
 
@@ -111,15 +111,15 @@ a:active {
   letter-spacing: 0.3rem;
 }
 
-.main-story-content a:link,
-a:visited {
+.button-main:link,
+.button-main:visited {
   text-decoration: none;
   background-color: var(--soft-red);
   color: var(--off-white);
   transition: background-color 0.2s ease-in-out;
 }
-.main-story-content a:hover,
-a:active {
+.button-main:hover,
+.button-main:active {
   background-color: var(--vdark-gray-blue);
 }
 
