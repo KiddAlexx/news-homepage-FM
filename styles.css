@@ -47,9 +47,13 @@ header {
   gap: 3.5rem;
   padding: 0;
   list-style: none;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: var(--dark-gray-blue);
   font-weight: 300;
   font-size: 1.5rem;
-  color: var(--dark-gray-blue);
 }
 
 /********************Page Layout**********************/
