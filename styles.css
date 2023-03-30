@@ -96,20 +96,31 @@ a:active {
   margin-left: 9rem;
   color: var(--dark-gray-blue);
 }
-.main-story-content button {
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 4rem;
   margin-left: 9rem;
-  border: none;
   background-color: var(--soft-red);
   width: 18rem;
   height: 5rem;
-
-  font-family: inherit;
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
+}
+
+.main-story-content a:link,
+a:visited {
+  text-decoration: none;
+  background-color: var(--soft-red);
   color: var(--off-white);
+  transition: background-color 0.2s ease-in-out;
+}
+.main-story-content a:hover,
+a:active {
+  background-color: var(--vdark-gray-blue);
 }
 
 /********************New Stories**********************/
