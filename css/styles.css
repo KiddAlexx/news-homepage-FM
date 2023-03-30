@@ -162,6 +162,7 @@ header {
 .new-stories p {
   margin-top: 1rem;
   margin-bottom: 3rem;
+  line-height: 1.5;
   font-size: 1.5rem;
   color: var(--gray-blue);
 }
@@ -216,6 +217,7 @@ header {
 }
 .top-story-content p {
   padding-top: 1.5rem;
+  line-height: 1.5;
   font-size: 1.5rem;
   color: var(--dark-gray-blue);
 }
