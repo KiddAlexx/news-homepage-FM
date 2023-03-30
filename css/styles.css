@@ -169,7 +169,7 @@ header {
 
 .new-stories p:not(:last-child) {
   border-bottom: 0.1rem var(--gray-blue) solid;
-  padding-bottom: 4.6rem;
+  padding-bottom: 3rem;
 }
 /********************Top Stories**********************/
 
@@ -201,7 +201,7 @@ header {
   color: var(--gray-blue);
 }
 .top-story-content h3 {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   font-size: 1.7rem;
   font-weight: 800;
 }
@@ -216,7 +216,7 @@ header {
   color: var(--soft-red);
 }
 .top-story-content p {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   line-height: 1.5;
   font-size: 1.5rem;
   color: var(--dark-gray-blue);
