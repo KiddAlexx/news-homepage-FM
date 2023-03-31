@@ -62,9 +62,27 @@
   .page01 {
     display: block;
   }
+
+  .main-story-content h1 {
+    padding-left: 0;
+    font-size: 4rem;
+  }
+
   .main-story-content2 {
     display: block;
+    margin-top: 2rem;
+    padding-right: 0;
   }
-  .new-stories{
+  .main-story-content2 p {
     width: 100%;
+    margin-bottom: 3rem;
   }
+  .new-stories {
+    width: 100%;
+    margin-top: 6rem;
+  }
+
+  .top-stories {
+    margin-top: 6rem;
+  }
+}
