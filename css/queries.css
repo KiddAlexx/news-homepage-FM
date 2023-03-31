@@ -1,3 +1,5 @@
+/****************MEDIUM SIZED SCREENS*****************/
+
 @media (max-width: 53em) /* 848px */ {
   .page01 {
     display: grid;
@@ -17,16 +19,13 @@
 
   .main-story-content h1 {
     text-align: start;
-    padding-left: 5rem;
   }
 
   .main-story-content2 {
     display: flex;
-    justify-content: end;
     align-items: center;
-    gap: 5rem;
+    gap: 10rem;
     margin-top: 2rem;
-    padding-right: 5rem;
   }
   .main-story-content2 p {
     width: 50%;
@@ -57,6 +56,8 @@
     flex-direction: column;
   }
 }
+
+/****************SMALL SIZED SCREENS*****************/
 
 @media (max-width: 39em) /* 624px */ {
   .page01 {
