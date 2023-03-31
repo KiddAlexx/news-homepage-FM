@@ -26,8 +26,15 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* Remove default styling for all links */
 a {
   text-decoration: none;
+}
+
+/* Remove default styling for all buttons */
+button {
+  background: none;
+  border: none;
 }
 
 .page-container {

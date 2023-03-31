@@ -41,7 +41,7 @@
   .new-stories {
     grid-column: 2/3;
     grid-row: 2/3;
-
+    width: 100%;
     margin-top: 2rem;
   }
 
@@ -62,6 +62,22 @@
 @media (max-width: 39em) /* 624px */ {
   .page01 {
     display: block;
+  }
+
+  .mobile-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2.5rem;
+    flex-direction: column;
+    background-color: white;
+    width: 65vw;
+    height: 100vh;
+  }
+
+  .menu-close-btn {
+    width: fit-content;
+    align-self: end;
   }
 
   .main-story-content h1 {
