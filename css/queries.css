@@ -58,5 +58,11 @@
   }
 }
 
-@media (max-width: 23.5em) /* 376px */ {
+@media (max-width: 39em) /* 624px */ {
+  .page01 {
+    display: block;
+  }
+  .main-story-content2 {
+    display: block;
+  }
 }
