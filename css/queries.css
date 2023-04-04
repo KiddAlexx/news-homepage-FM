@@ -66,6 +66,11 @@
 
   .menu-open-btn {
     display: block;
+    transform: scaleY(1);
+    transition: transform 0.2s ease-in-out;
+  }
+  .menu-open-btn:hover {
+    transform: scaleY(1.6);
   }
 
   .menu-close-btn {
