@@ -45,6 +45,11 @@ button {
   max-width: 114rem;
 }
 
+/* Used to hide elements as required */
+.hidden {
+  display: none;
+}
+
 /********************Header**********************/
 
 header {
