@@ -68,6 +68,10 @@
     display: block;
   }
 
+  .menu-close-btn {
+    display: block;
+  }
+
   .mobile-menu-closed {
     position: absolute;
     transform: translateX(+100%);

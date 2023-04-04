@@ -50,6 +50,11 @@ button {
   display: none;
 }
 
+/* Used to lock scrolling while mobile menu active */
+.lock-scroll {
+  overflow: hidden;
+}
+
 /********************Header**********************/
 
 header {
@@ -62,10 +67,6 @@ header {
 /* Hide mobile menu button */
 .menu-open-btn {
   display: none;
-}
-
-.menu-close-btn {
-  display: block;
 }
 
 .header-menu {
