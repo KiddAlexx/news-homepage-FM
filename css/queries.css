@@ -78,6 +78,7 @@
     background-color: white;
     width: 65vw;
     height: 100vh;
+    transition: transform 1s ease-in-out;
   }
 
   .mobile-menu-open {

@@ -64,6 +64,10 @@ header {
   display: none;
 }
 
+.menu-close-btn {
+  display: block;
+}
+
 .header-menu {
   display: flex;
   gap: 3.5rem;
