@@ -75,6 +75,11 @@
 
   .menu-close-btn {
     display: block;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease-in-out;
+  }
+  .menu-close-btn:hover {
+    transform: rotate(90deg);
   }
 
   .mobile-menu {
