@@ -64,8 +64,13 @@
     display: block;
   }
 
-  .mobile-menu {
+  .menu-open-btn {
+    display: block;
+  }
+
+  .mobile-menu-closed {
     position: absolute;
+    transform: translateX(+100%);
     right: 0;
     top: 0;
     padding: 2.5rem;
@@ -73,6 +78,10 @@
     background-color: white;
     width: 65vw;
     height: 100vh;
+  }
+
+  .mobile-menu-open {
+    transform: translateX(0);
   }
 
   .menu-close-btn {
