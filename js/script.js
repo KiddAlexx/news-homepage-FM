@@ -1,5 +1,7 @@
 'use strict';
 
+/**********Variables***********/
+
 const body = document.querySelector('body');
 
 const btnOpenMenu = document.querySelector('.menu-open-btn');
@@ -9,6 +11,8 @@ const mobileMenu = document.querySelector('.mobile-menu');
 
 const page01 = document.querySelector('.page01');
 
+/***********Functionality for Mobile Menu***********/
+
 const openMobileMenu = function () {
   btnOpenMenu.addEventListener('click', e => {
     mobileMenu.classList.toggle('mobile-menu-open');
@@ -17,6 +21,7 @@ const openMobileMenu = function () {
     if (mobileMenu.classList.contains('mobile-menu-close')) {
       mobileMenu.classList.toggle('mobile-menu-close');
     }
+    /* Lock scrolling and blur background while mobile menu is active */
     body.classList.toggle('lock-scroll');
     page01.classList.toggle('medium-blur');
   });
