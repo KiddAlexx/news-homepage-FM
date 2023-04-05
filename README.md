@@ -8,7 +8,6 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -27,14 +26,10 @@ Users should be able to:
 
 ![](./imgs/screenshot.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-landing-page-grid-flexbox-cYE7Mtj-h0)
+- Live Site URL: [Add live site URL here](https://kiddalexx.github.io/news-homepage-FM/)
 
 ### Built with
 
