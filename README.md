@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://www.frontendmentor.io/solutions/responsive-landing-page-grid-flexbox-cYE7Mtj-h0)
-- Live Site URL: (https://kiddalexx.github.io/news-homepage-FM/)
+- Solution URL: [Frontend Mentor - My Solution](https://www.frontendmentor.io/solutions/responsive-landing-page-grid-flexbox-cYE7Mtj-h0)
+- Live Site URL: [Github Pages - Live Site](https://kiddalexx.github.io/news-homepage-FM/)
 
 ### Built with
 
