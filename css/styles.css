@@ -77,6 +77,10 @@ header {
   list-style: none;
 }
 
+.company-logo {
+  width: 5rem;
+}
+
 .header-link:link,
 .header-link:visited {
   color: var(--dark-gray-blue);
