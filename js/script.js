@@ -7,6 +7,8 @@ const btnCloseMenu = document.querySelector('.menu-close-btn');
 
 const mobileMenu = document.querySelector('.mobile-menu');
 
+const page01 = document.querySelector('.page01');
+
 const openMobileMenu = function () {
   btnOpenMenu.addEventListener('click', e => {
     mobileMenu.classList.toggle('mobile-menu-open');
@@ -16,6 +18,7 @@ const openMobileMenu = function () {
       mobileMenu.classList.toggle('mobile-menu-close');
     }
     body.classList.toggle('lock-scroll');
+    page01.classList.toggle('medium-blur');
   });
 };
 
@@ -24,6 +27,7 @@ const closeMobileMenu = function () {
     mobileMenu.classList.toggle('mobile-menu-open');
     mobileMenu.classList.toggle('mobile-menu-close');
     body.classList.toggle('lock-scroll');
+    page01.classList.toggle('medium-blur');
   });
 };
 
