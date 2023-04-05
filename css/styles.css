@@ -28,8 +28,12 @@ body {
 }
 
 /* Remove default styling for all links */
-a {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
+  color: inherit;
 }
 
 /* Remove default styling for all buttons */
